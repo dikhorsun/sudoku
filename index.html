@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sudoku</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/styleSudoku.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cleartype" content="on"/>
+</head>
+<body>
+
+<header id="header">
+    <ul class="menu" id="menu">
+        <li><a href="#rules" id="rulesButton">Правила игры</a></li>
+        <li><a href="#highScore" id="tableHighScoreButton">Таблица рекордов</a></li>
+        <li><a href="#" id='soundOnOffButton' class="sound">Включить музыку</a></li>
+    </ul>
+    <div id='mobile-menu-toggle' class="mobile-menu-toggle">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+    </div>
+</header>
+
+<div class="background">
+    <div class="infoPage" id="info-container">
+        <div id="info-content"></div>
+        <a href="#" id="close-button" class="button place infoButton">Закрыть</a>
+    </div>
+    <div class="container">
+        <div class="leftNav">
+            <a href="#" class="button place" id="startButton">новая игра</a>
+            <div class="recessed place"> Время <span class="counter" id="counter">0</span></div>
+            <a href="#" class="button place" id="finishButton">проверить</a>
+        </div>
+        <div class="field">
+            <div class="game recessed">
+                
+            </div>
+        </div>
+        <div class="messageBox" id="message-container">
+            <div id="message-content"></div>
+            <a href="#" id="close-message" class="button place infoButton" onclick=sendName()>Закрыть</a>
+        </div>
+    </div>
+</div>
+
+<script src="View.js"></script>
+<script src="Controller.js"></script>
+<script src="Model.js"></script>
+<script src="Sudoku.js"></script>
+
+<script src="https://fe.it-academy.by/JQ/jquery.js"></script>
+<script src="script.js"></script>
+
+<script>
+   
+
+
+    
+</script>
+</body>
+</html>
+
+
+
+
